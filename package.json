@@ -1,0 +1,30 @@
+{
+  "name": "no-sql-social-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash301994/no-sql-social-media.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash301994/no-sql-social-media/issues"
+  },
+  "homepage": "https://github.com/akash301994/no-sql-social-media#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2"
+  },
+  "devDependencies": {
+      "nodemon": "^2.0.21"
+    }
+  }
+
